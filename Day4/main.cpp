@@ -56,4 +56,14 @@ int main()
 	EvenNumbers();
 }
 
+// Arrays
+#include <iostream>
 
+
+int main()
+{
+	int example[3] = { 1, 2, 3 };
+	
+	for (int i = 0; i < 3; i++)
+		std::cout << example[i] << std::endl;
+}
