@@ -1,55 +1,80 @@
-**What I Learned (Quiz Me):**
+# 📅 Day 2 — Variables, Memory, and Functions (C++)
 
-What is a variable?
-What does int age = 18; do?
-What happens when you change a variable?
-What does std::cout << age; print?
-Where are variables stored?
-What is a bit?
-What is a byte?
-What is a primitive type?
-Why do different data types exist?
+---
 
-**Functions (Quiz Me)**
+## 🧠 What I Learned
 
-What is a function?
-What is a parameter?
-What does return do?
-What is the difference between void and int functions?
-What happens if an int function has no return?
+### Variables & Memory
+- A **variable** is a named location in memory used to store data.
+- `int age = 18;`
+  - Creates a variable named `age`
+  - Allocates memory
+  - Stores the value `18`
+- Changing a variable:
+  - Updates the value stored in memory
+- `std::cout << age;`
+  - Prints the **value stored** in the variable, not the variable name
+- Variables are stored in **RAM (memory)**
 
+---
 
-**What I Built**
+### Bits, Bytes, and Data Types
+- **Bit** = smallest unit of data (0 or 1)
+- **Byte** = 8 bits
+- **Primitive types** = basic built-in data types (e.g., `int`, `char`, `bool`)
+- Different data types exist to:
+  - Control **memory usage**
+  - Improve **performance**
+  - Provide correct **precision** for values
 
-Program using variables
-Stored and modified values
-Printed variable values to console
+---
 
-**What I Struggled With**
+### Functions
+- A **function** is a reusable block of code
+- A **parameter** is an input passed into a function
+- `return`:
+  - Sends a value back to where the function was called
+- `void` function:
+  - Returns nothing
+- `int` function:
+  - Must return an integer value
+- If an `int` function has no `return`:
+  - The program will produce an **error or undefined behavior**
 
-Understanding bits vs bytes
-Understanding primitive types clearly
+---
 
-**Questions**
-What is the difference between bit and byte?
+## 💻 What I Built
+- Program using variables
+- Stored and modified values in memory
+- Printed variable values to the console
 
-**Key Concepts (Answers)**
+---
 
-Variable = named location in memory that stores data
-int age = 18; = creates variable and assigns value
-Changing variable = updates value in memory
-std::cout << age; = prints the VALUE stored
-Variables are stored in memory (RAM)
-Bit = smallest unit (0 or 1)
-Byte = 8 bits
-Primitive types = basic built-in data types
-Different types exist for memory size, performance, and precision
+## ⚠️ What I Struggled With
+- Understanding the difference between **bits vs bytes**
+- Clearly understanding **primitive data types**
 
-**Functions (Answers)**
+---
 
-Function = reusable block of code
-Parameter = input to a function
-Return = sends value back to where function is called
-void = returns nothing
-int = returns a whole number
-No return in int function = error
+## ❓ Questions I Had
+- What is the difference between a bit and a byte?
+
+---
+
+## 🔑 Key Takeaways
+- Variables are **stored in memory and can change over time**
+- A **bit** is a single binary value; a **byte** is a group of 8 bits
+- Data types define:
+  - How much memory is used
+  - What kind of data is stored
+- Functions help organize and reuse logic
+- `return` is required for non-void functions
+
+---
+
+## 🚀 Next Focus
+- Practice:
+  - Creating and modifying variables
+  - Writing simple functions with parameters and return values
+- Strengthen understanding of:
+  - Memory (bits, bytes, data types)
