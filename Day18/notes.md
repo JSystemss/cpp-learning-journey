@@ -1,4 +1,4 @@
-# Day 19 - std::string Methods and Word Counter
+# Day 18 - std::string Methods and Word Counter
 
 ## Quiz Me
 1. What does `.find()` return if it cannot find the character you searched for?
